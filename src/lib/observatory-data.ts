@@ -1,0 +1,161 @@
+export type Listing = {
+  id: string;
+  city: string;
+  neighborhood: string;
+  type: string;
+  area: number;
+  rooms: number;
+  price: number;
+  source: string;
+  lat: number;
+  lng: number;
+  date: string;
+};
+export const listings: Listing[] = [
+  {
+    id: "SP-001842",
+    city: "São Paulo",
+    neighborhood: "Pinheiros",
+    type: "Apartamento",
+    area: 84,
+    rooms: 2,
+    price: 1092000,
+    source: "Viva Real",
+    lat: -23.566,
+    lng: -46.686,
+    date: "15/10/2026",
+  },
+  {
+    id: "SP-001843",
+    city: "São Paulo",
+    neighborhood: "Vila Mariana",
+    type: "Apartamento",
+    area: 72,
+    rooms: 2,
+    price: 864000,
+    source: "ZAP Imóveis",
+    lat: -23.589,
+    lng: -46.635,
+    date: "15/10/2026",
+  },
+  {
+    id: "SP-001844",
+    city: "São Paulo",
+    neighborhood: "Moema",
+    type: "Apartamento",
+    area: 125,
+    rooms: 3,
+    price: 1812500,
+    source: "Viva Real",
+    lat: -23.604,
+    lng: -46.665,
+    date: "14/10/2026",
+  },
+  {
+    id: "SP-001845",
+    city: "São Paulo",
+    neighborhood: "Butantã",
+    type: "Casa",
+    area: 180,
+    rooms: 3,
+    price: 1260000,
+    source: "Imovelweb",
+    lat: -23.573,
+    lng: -46.72,
+    date: "14/10/2026",
+  },
+  {
+    id: "SP-001846",
+    city: "São Paulo",
+    neighborhood: "Bela Vista",
+    type: "Comercial",
+    area: 60,
+    rooms: 0,
+    price: 540000,
+    source: "ZAP Imóveis",
+    lat: -23.558,
+    lng: -46.65,
+    date: "14/10/2026",
+  },
+  {
+    id: "SP-001847",
+    city: "São Paulo",
+    neighborhood: "Perdizes",
+    type: "Apartamento",
+    area: 96,
+    rooms: 3,
+    price: 1152000,
+    source: "Imovelweb",
+    lat: -23.535,
+    lng: -46.673,
+    date: "13/10/2026",
+  },
+  {
+    id: "RJ-002101",
+    city: "Rio de Janeiro",
+    neighborhood: "Botafogo",
+    type: "Apartamento",
+    area: 80,
+    rooms: 2,
+    price: 960000,
+    source: "Viva Real",
+    lat: -22.951,
+    lng: -43.185,
+    date: "15/10/2026",
+  },
+  {
+    id: "RJ-002102",
+    city: "Rio de Janeiro",
+    neighborhood: "Tijuca",
+    type: "Casa",
+    area: 160,
+    rooms: 3,
+    price: 1200000,
+    source: "ZAP Imóveis",
+    lat: -22.925,
+    lng: -43.235,
+    date: "14/10/2026",
+  },
+  {
+    id: "DF-003201",
+    city: "Brasília",
+    neighborhood: "Asa Sul",
+    type: "Apartamento",
+    area: 110,
+    rooms: 3,
+    price: 1210000,
+    source: "Imovelweb",
+    lat: -15.811,
+    lng: -47.901,
+    date: "15/10/2026",
+  },
+  {
+    id: "BH-004301",
+    city: "Belo Horizonte",
+    neighborhood: "Savassi",
+    type: "Apartamento",
+    area: 90,
+    rooms: 2,
+    price: 855000,
+    source: "Viva Real",
+    lat: -19.939,
+    lng: -43.935,
+    date: "14/10/2026",
+  },
+];
+export const cities = ["São Paulo", "Rio de Janeiro", "Brasília", "Belo Horizonte"];
+export const currency = (value: number) =>
+  new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+    maximumFractionDigits: 0,
+  }).format(value);
+export const evolution = [
+  { month: "Abr", value: 10180 },
+  { month: "Mai", value: 10390 },
+  { month: "Jun", value: 10320 },
+  { month: "Jul", value: 10680 },
+  { month: "Ago", value: 10940 },
+  { month: "Set", value: 11100 },
+  { month: "Out", value: 11350 },
+];
