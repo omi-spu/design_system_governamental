@@ -12,7 +12,7 @@ As telas apresentadas neste repositório têm caráter **exploratório e demonst
 
 O desenvolvimento visual das telas utiliza como referência o Design System do Governo Federal, buscando manter consistência com os padrões de interface, componentes e diretrizes de design adotados no contexto de serviços digitais governamentais.
 
-- **Figma — Componentes do Design System:** [INSERIR LINK DO FIGMA]
+- **Figma — Componentes do Design System:** https://www.figma.com/team_invite/redeem/aAeEq3hMyEHqIdGw1CLX3J?t=KKCV3CgVcPJG81h0-21
 - **Documentação oficial do Design System:** https://www.gov.br/ds/home
 
 ## 3. Demonstração visual
