@@ -19,7 +19,7 @@ O desenvolvimento visual das telas utiliza como referência o Design System do G
 
 A seguir, apresenta-se uma imagem de exemplo de uma das telas desenvolvidas durante o estudo preliminar.
 
-(./imagens/exemplo-tela.png)
+![Exemplo de tela](<Captura de tela 2026-10-15 195025.png>)
 
 As interfaces foram desenvolvidas para demonstrar possibilidades de composição visual, organização das informações e aplicação dos componentes de interface. Os dados eventualmente exibidos possuem caráter ilustrativo.
 
